@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+    font-size: 20px;
+    background-image: url(assets/graceword.jpg);
+}
+.intro{
+    position: relative;
+    top: 350px;
+    border-radius: 50%;
+}
+.back{
+    border-radius: 25%;
+    height: 100%;
+    max-width: 100%;
+    background-image: url(assets/graceword.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100% 100%;
+    transition: opacity 2s ease-in-out;
+
+    animation-name: bode;
+    animation-timing-function: ease-in-out;
+    animation-duration: 30s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+}
+@keyframes bode {
+    10%{background-image: url(assets/grace.jpg);}
+    20%{background-image: url(assets/grace0.jpg);}
+    30%{background-image: url(assets/grace1.jpg);}
+    40%{background-image: url(assets/grace2.jpg);}
+    50%{background-image: url(assets/grace3.jpg);}
+    60%{background-image: url(assets/grace4.jpg);}
+    70%{background-image: url(assets/grace5.jpg);}
+    80%{background-image: url(assets/grace6.jpg);}
+    90%{background-image: url(assets/grace7.jpg);}
+    100%{background-image: url(assets/gracegif.gif);}
+    
+}
+.intro{
+    height:200px;
+    margin: 200px;
+    background-image: url(assets/gracegif0.gif);
+    border-width: 20px;
+    border-color: tomato;
+    text-align: center;
+    color: blue;
+}
+#call{
+    color: firebrick;
+    padding-top: 10px;
+    text-shadow: 3px 3px 3px blue;
+    font-size: 30px;
+}
+a{
+    background-color: rgb(23, 0, 128);
+    border-radius: 25%;
+    text-decoration: none;
+    color: yellow;
+}

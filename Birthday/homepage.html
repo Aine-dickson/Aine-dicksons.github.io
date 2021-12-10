@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="birthdaycss2.css">
+
+</head>
+<body>
+    <div class="back">
+        <div class="first-content">
+       <p> 
+           HAPPY BIRTHDAY TO YOU GRACE KICONCO
+       </p>
+        <img src="assets/gracegif.gif">
+        <p>
+            LIVE MORE YEARS OF BEING OUR BLESSING
+        </p>
+        </div>
+        <div>
+            <p>
+                <marquee>
+                    Born on 21st December, 2001,  now making 20 years today, 
+                    Let's celebrate....
+                    <br>
+                </marquee>
+            </p>
+        </div>
+        <div class="navbar">
+            <a href="wishes.html">WISHES</a>
+            <a href="chartroom.html">CHARTROOM</a>
+            <div class="dropdown">
+            <button class="dropbtn" onclick="myFunction()">GALLERY
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content" id="myDropdown">
+              <a href="kiconco.html">Kiconco Grace</a>
+              <a href="dixon.html">Birthday Boy</a>
+              <a href="friends.html">Grace's friends</a>
+              <a href="dfriends.html">Birthday boy's friends</a>
+            </div>
+            </div> 
+          </div>
+          
+        <div>
+            <p>A word from birthday girl</p>
+            <div>
+                <p></p>
+            </div>
+            <p>A word from birthday boy</p>
+            <div>
+                <p></p>
+            </div>
+        </div>
+        <audio autoplay loop>
+            <source src="assets/happy birthday.mp3" type="audio/mpeg">
+        </audio>
+        <div class="copyright">
+           <p>Designed by Ainebyoona Dickson</p>
+        </div>
+    </div>
+    <script>
+        /* When the user clicks on the button, 
+        toggle between hiding and showing the dropdown content */
+        function myFunction() {
+          document.getElementById("myDropdown").classList.toggle("show");
+        }
+        
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function(e) {
+          if (!e.target.matches('.dropbtn')) {
+          var myDropdown = document.getElementById("myDropdown");
+            if (myDropdown.classList.contains('show')) {
+              myDropdown.classList.remove('show');
+            }
+          }
+        }
+    </script> 
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

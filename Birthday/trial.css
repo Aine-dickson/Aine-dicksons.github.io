@@ -1,0 +1,12 @@
+body{
+    border: 100px solid;
+    border-image: url(assets/gracegif.gif) 30% round;
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+}
+div{
+    height: 100px;
+    margin: 200px;
+    background-color: darkturquoise;
+}
