@@ -2,6 +2,11 @@ body {
     margin: 0%;
     padding: 0%;
     font-family: sans-serif;
+  background-image: url(assets/graces/G-ThuS3p1720.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat:repeat;
+  background-size: contain;
 }
 .back img{
     margin-left: auto;
@@ -12,8 +17,19 @@ body {
     border-radius: 50%;
 }
 .first-content{
+    text-align: center;
     margin: auto;
     width: 45%;
+}
+#dword{
+  color: green;
+  width: 200px;
+  border-style: solid;
+  border-top-color: palegoldenrod;
+  border-left-color: yellow;
+  border-bottom-color: tomato;
+  border-right-color: red;
+  background-color: wheat;
 }
 
 .copyright{

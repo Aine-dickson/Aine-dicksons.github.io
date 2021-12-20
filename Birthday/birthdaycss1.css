@@ -24,29 +24,30 @@ body{
 
     animation-name: bode;
     animation-timing-function: ease-in-out;
-    animation-duration: 30s;
+    animation-duration: 20s;
     animation-direction: alternate-reverse;
     animation-iteration-count: infinite;
     animation-fill-mode: forwards;
 }
 @keyframes bode {
-    10%{background-image: url(assets/grace.jpg);}
-    20%{background-image: url(assets/grace0.jpg);}
-    30%{background-image: url(assets/grace1.jpg);}
-    40%{background-image: url(assets/grace2.jpg);}
-    50%{background-image: url(assets/grace3.jpg);}
-    60%{background-image: url(assets/grace4.jpg);}
-    70%{background-image: url(assets/grace5.jpg);}
-    80%{background-image: url(assets/grace6.jpg);}
-    90%{background-image: url(assets/grace7.jpg);}
-    100%{background-image: url(assets/gracegif.gif);}
+    10%{background-image: url(assets/graces/G-MonDec2820.jpg);}
+    20%{background-image: url(assets/graces/G-MonJul2621.jpg);}
+    30%{background-image: url(assets/graces/G-tueSept2121.jpg);}
+    40%{background-image: url(assets/graces/G-WedSept1521.jpg);}
+    50%{background-image: url(assets/graces/G-WedAug1821.jpg);}
+    60%{background-image: url(assets/graces/G-WedSept15210.jpg);}
+    70%{background-image: url(assets/graces/G-ThuJan721.jpg);}
+    80%{background-image: url(assets/graces/Brace.jpg);}
+    90%{background-image: url(assets/graces/Isaacg.jpg);}
+    100%{background-image: url(assets/graces/G-SatDec2620.jpg);}
     
 }
 .intro{
-    height:200px;
-    margin: 200px;
+    height:100px;
+    margin: 100px;
+    width: auto;
     background-image: url(assets/gracegif0.gif);
-    border-width: 20px;
+    background-size: contain;
     border-color: tomato;
     text-align: center;
     color: blue;
